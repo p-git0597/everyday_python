@@ -9,16 +9,16 @@ Sets in python more or less work in the same way as sets in mathematics. We can 
 
 ## intersection and intersection_update():
 
-The intersection() and intersection_update() methods prints only items that are similar to both the sets.
-The intersection() method returns a new set whereas intersection_update() method updates into the existing set from another set.
+The `intersection()` and intersection_update() methods prints only items that are similar to both the sets.
+The `intersection()` method returns a new set whereas intersection_update() method updates into the existing set from another set.
 
 ## symmetric_difference and symmetric_difference_update():
 
-The symmetric_difference() and symmetric_difference_update() methods prints only items that are not similar to both the sets. The symmetric_difference() method returns a new set whereas symmetric_difference_update() method updates into the existing set from another set.
+The `symmetric_difference()` and `symmetric_difference_update()` methods prints only items that are not similar to both the sets. The `symmetric_difference()` method returns a new set whereas symmetric_difference_update() method updates into the existing set from another set.
 
 ## difference() and difference_update():
 
-The difference() and difference_update() methods prints only items that are only present in the original set and not in both the sets. The difference() method returns a new set whereas difference_update() method updates into the existing set from another set.
+The `difference` and `difference_update()` methods prints only items that are only present in the original set and not in both the sets. The `difference()` method returns a new set whereas difference_update() method updates into the existing set from another set.
 
 # Set Methods
 

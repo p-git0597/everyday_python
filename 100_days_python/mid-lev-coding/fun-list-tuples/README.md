@@ -1,4 +1,4 @@
-Why do we need function:-
+# Why do we need function:-
 
 1. To organize our code in a more manageable way.
 2. Reusability: Functions allow us to write the same piece of code multiple times with
@@ -21,7 +21,7 @@ Functions are particularly useful when working on large projects where dependenc
 
 ## List Methods
 
-list.sort()
+`list.sort()`
 This method sorts the list in ascending order. The original list is updated
 
 What if you want to print the list in descending order?
@@ -31,47 +31,51 @@ The reverse parameter is set to False by default.
 
 Note: Do not mistake the reverse parameter with the reverse method.
 
-reverse()
+`reverse():`
 This method reverses the order of the list.
 
-index()
+`index():`
 This method returns the index of the first occurrence of the list item.
 
-count()
+`count():`
 Returns the count of the number of items with the given value.
 
-copy()
+`copy():`
 Returns copy of the list. This can be done to perform operations on the list without modifying the original list.
 
-append():
+`append():`
 This method appends items to the end of the existing list.
 
-insert():
+`insert():`
 This method inserts an item at the given index. User has to specify index and the item to be inserted within the insert() method.
 
-extend():
+`extend():`
 This method adds an entire list or any other collection datatype (set, tuple, dictionary) to the existing list.
 
 Concatenating two lists:
 You can simply concatenate two lists to join two lists.
 
-## Tuples
+# Tuples
 
-# Manupilating Tuples
+## Manupilating Tuples
 
 Tuples are immutable, hence if you want to add, remove or change tuple items, then first you must convert the tuple to a list. Then perform operation on that list and convert it back to tuple.
 
+```
 countries = ("Spain", "Italy", "India", "England", "Germany")
 temp = list(countries)
 
 countries = tuple(temp)
 print(countries)
+```
 
 Thus, we convert the tuple to a list, manipulate items of the list using list methods, then convert list back to a tuple.
 
 However, we can directly concatenate two tuples without converting them to list.
 
+```
 countries = ("Pakistan", "Afghanistan", "Bangladesh", "ShriLanka")
 countries2 = ("Vietnam", "India", "China")
 southEastAsia = countries + countries2
 print(southEastAsia)
+```

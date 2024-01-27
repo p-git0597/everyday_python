@@ -83,3 +83,26 @@ print(num2.issubset(num1))
 # print(s)
 s= {i**2 for i in range(1, 6)}
 print(s)
+
+
+## Discard and Remove Methods:
+# Create a set with a few elements. Use the discard() method to remove an element that may or may not be in the set.
+num = {1,2,3,4,5}
+num.discard(3)
+num.discard(7)
+print(num)
+# Use the remove() method to remove an element that is definitely in the set.
+# num.remove(7) # -> KeyError: 7
+num.remove(2)
+print(num)
+
+## Frozen Sets:
+# Create a frozen set with a few elements and try to add an element to it.
+
+# my_set = frozenset({1,3,5,10,8,9,})
+# my_set.add(15)
+# print(my_set)
+
+# In this example, the attempt to add an element using the add method will raise an AttributeError because 
+# frozen sets do not support modification operations like adding or removing elements. 
+# The frozen set remains unchanged after the attempted addition.
