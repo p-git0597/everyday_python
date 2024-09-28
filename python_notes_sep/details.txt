@@ -1,0 +1,10 @@
+1. DataTypes
+2. Strings - Slicing
+3. List and Tupless - Slicing
+4. Dictionary and Sets
+5. Loops
+6. Functions and Recursion
+7. File Input and Output
+8. OOPS Part 1
+9. OOPS Part 2
+10. Mini Project
